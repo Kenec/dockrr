@@ -1,9 +1,11 @@
+const { createDockerFile } = require('./src/creator');
 /**
  * Main function
  * @param {object} config
  * @return {null}
  */
-function main(config) {
-  // TODO: use the config to generate a Dockerfile
-  console.log("Index File: ", config);
+function main() {
+  createDockerFile();
 }
+
+main();
