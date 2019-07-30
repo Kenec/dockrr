@@ -1,11 +1,3 @@
-const { createDockerFile } = require('./src/creator');
-/**
- * Main function
- * @param {object} config
- * @return {null}
- */
-function main() {
-  createDockerFile();
-}
+const cli = require('./lib/cli');
 
-main();
+cli.parse(process.argv);
