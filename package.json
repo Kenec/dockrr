@@ -1,5 +1,5 @@
 {
-    "name": "dockr",
+    "name": "dockrr",
     "version": "0.0.1",
     "description": "An npm package for generating Dockerfile and building container image of Node.js applications",
     "main": "index.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kenec/dockr.git"
+        "url": "git+https://github.com/Kenec/dockrr.git"
     },
     "keywords": [
         "Docker",
@@ -23,7 +23,7 @@
     "author": "Kenechukwu Nnamani",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Kenec/dockr/issues"
+        "url": "https://github.com/Kenec/dockrr/issues"
     },
     "husky": {
         "hooks": {
@@ -42,7 +42,7 @@
             "lib/**/*"
         ]
     },
-    "homepage": "https://github.com/Kenec/dockr#readme",
+    "homepage": "https://github.com/Kenec/dockrr#readme",
     "devDependencies": {
         "coveralls": "^3.0.5",
         "eslint": "^6.1.0",
