@@ -4,7 +4,7 @@
     "description": "An npm package for generating Dockerfile and building container image of Node.js applications",
     "main": "index.js",
     "scripts": {
-        "test": "NODE_ENV=test jest --coverage && cat ./coverage/lcov.info",
+        "test": "NODE_ENV=test jest --coverage",
         "lint": "eslint src/",
         "prettier-fix": "prettier --write src/",
         "eslint-fix": "eslint --fix src/"
@@ -39,7 +39,7 @@
     "jest": {
         "collectCoverage": true,
         "collectCoverageFrom": [
-            "src/**/*"
+            "lib/**/*"
         ]
     },
     "homepage": "https://github.com/Kenec/dockr#readme",
