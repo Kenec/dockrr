@@ -4,7 +4,7 @@
     "description": "An npm package for generating Dockerfile and building container image of Node.js applications",
     "main": "index.js",
     "scripts": {
-        "test": "npm run test",
+        "test": "NODE_ENV=test jest --coverage",
         "lint": "eslint src/",
         "prettier-fix": "prettier --write src/",
         "eslint-fix": "eslint --fix src/"
@@ -33,20 +33,30 @@
     "lint-staged": {
         "src/**/*.{js}": [
             "eslint",
-            "pretty-quick — staged",
             "git add"
+        ]
+    },
+    "jest": {
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "lib/**/*"
         ]
     },
     "homepage": "https://github.com/Kenec/dockr#readme",
     "devDependencies": {
+        "coveralls": "^3.0.5",
         "eslint": "^6.1.0",
         "eslint-config-airbnb": "^17.1.1",
         "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-react": "^7.14.2",
         "husky": "^3.0.1",
+        "jest": "^24.8.0",
         "lint-staged": "^9.2.0",
         "prettier": "^1.18.2",
         "pretty-quick": "^1.11.1"
+    },
+    "dependencies": {
+        "commander": "^2.20.0"
     }
 }
