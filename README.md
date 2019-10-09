@@ -1,7 +1,7 @@
 # dockrr
 
-[![Build Status](https://travis-ci.org/Kenec/dockrr.svg?branch=develop)](https://travis-ci.org/Kenec/dockrr)
-[![Coverage Status](https://coveralls.io/repos/github/Kenec/dockrr/badge.svg?branch=master)](https://coveralls.io/github/Kenec/dockrr?branch=master)
+[![Build Status](https://travis-ci.org/Kenec/dockr.svg?branch=develop)](https://travis-ci.org/Kenec/dockr)
+[![Coverage Status](https://coveralls.io/repos/github/Kenec/dockr/badge.svg?branch=master)](https://coveralls.io/github/Kenec/dockr?branch=master)
 <br>
 **dockrr** is an an NPM package for auto generating Dockerfile, building docker image, running and stopping the docker container in Node.js. 
 
