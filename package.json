@@ -4,7 +4,7 @@
     "description": "An npm package for generating Dockerfile and building container image of Node.js applications",
     "main": "index.js",
     "scripts": {
-        "test": "NODE_ENV=test jest --coverage",
+        "test": "NODE_ENV=test jest --coverage && coveralls < coverage/lcov.info",
         "lint": "eslint src/",
         "prettier-fix": "prettier --write src/",
         "eslint-fix": "eslint --fix src/"
