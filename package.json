@@ -1,6 +1,6 @@
 {
     "name": "dockrr",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "An npm package for generating Dockerfile and building container image of Node.js applications",
     "main": "index.js",
     "scripts": {
